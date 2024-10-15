@@ -61,6 +61,7 @@ bool AYMovingPlatform::ShouldPlatformReturn() const
 	return GetDistanceMoved() > MoveDistance;
 }
 
+
 float AYMovingPlatform::GetDistanceMoved() const
 {
 	// 인자로 넘긴 두 벡터 사이의 거리를 구하는 함수
