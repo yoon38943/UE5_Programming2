@@ -21,7 +21,7 @@ public:
 	UPROPERTY(VisibleAnywhere)
 	class UPointLightComponent* Light;
 	UPROPERTY(VisibleAnywhere)
-	UParticleSystemComponent* Splash;
+	class UParticleSystemComponent* Splash;
 	UPROPERTY(VisibleAnywhere)
 	URotatingMovementComponent* Movement;
 
@@ -32,4 +32,7 @@ public:
 	AFountain();
 	virtual void Tick(float DeltaTime) override;
 
+private:
+	UPROPERTY(EditAnywhere, Category = FOuntainOption, Meta = (AllowPrivateAccess = true))
+	float RotateSpeed = 0.0f;
 };

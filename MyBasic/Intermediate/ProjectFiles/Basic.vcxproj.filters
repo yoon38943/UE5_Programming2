@@ -53,5 +53,23 @@
     <ClInclude Include="..\..\Source\Basic\Test.h">
       <Filter>Source\Basic</Filter>
     </ClInclude>
+    <Filter Include="Source\Basic\Character">
+      <UniqueIdentifier>{16259AB2-8DDE-3AF8-AD1B-0C530E0586AC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Basic\Character\YCharBase.cpp">
+      <Filter>Source\Basic\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\Character\YCharBase.h">
+      <Filter>Source\Basic\Character</Filter>
+    </ClInclude>
+    <Filter Include="Source\Basic\Gimmick">
+      <UniqueIdentifier>{0CCAACC2-9F8A-3FEF-8C1C-60DCF4D74407}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Basic\Gimmick\YMovingPlatform.cpp">
+      <Filter>Source\Basic\Gimmick</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\Gimmick\YMovingPlatform.h">
+      <Filter>Source\Basic\Gimmick</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
