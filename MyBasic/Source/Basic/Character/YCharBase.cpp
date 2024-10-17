@@ -64,6 +64,8 @@ void AYCharBase::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 	}
 }
 
+
+
 void AYCharBase::YLook(const FInputActionValue& Value)
 {
 	FVector2D LookAxisVector = Value.Get<FVector2D>();
@@ -91,4 +93,5 @@ void AYCharBase::YMove(const FInputActionValue& Value)
 		AddMovementInput(RightDirection, MovementVector.X);
 	}
 }
+
 

@@ -1,0 +1,45 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Basic.cpp.obj": [
+			"Fountain.gen.cpp.obj",
+			"Test.gen.cpp.obj",
+			"YCharBase.gen.cpp.obj",
+			"YMovingPlatform.gen.cpp.obj",
+			"Basic.cpp.obj",
+			"Fountain.cpp.obj",
+			"YMovingPlatform.cpp.obj",
+			"Test.cpp.obj",
+			"Basic.init.gen.cpp.obj",
+			"DeadZone.gen.cpp.obj",
+			"DelegateListener.gen.cpp.obj",
+			"DelegateParamListener.gen.cpp.obj",
+			"DelegateParamTrigger.gen.cpp.obj",
+			"DelegateTrigger.gen.cpp.obj",
+			"EventTrigger.gen.cpp.obj",
+			"Event_Listener.gen.cpp.obj",
+			"MulticastDelegateListener.gen.cpp.obj",
+			"MulticastDelegateParamListener.gen.cpp.obj",
+			"MulticastDelegateParamTrigger.gen.cpp.obj",
+			"MulticastDelegateTrigger.gen.cpp.obj",
+			"Trophy.gen.cpp.obj",
+			"YCharBase_AnimInstance.gen.cpp.obj",
+			"YGameInstance.gen.cpp.obj",
+			"YCharBase.cpp.obj",
+			"YCharBase_AnimInstance.cpp.obj",
+			"DelegateListener.cpp.obj",
+			"DelegateParamListener.cpp.obj",
+			"DelegateParamTrigger.cpp.obj",
+			"DelegateTrigger.cpp.obj",
+			"EventTrigger.cpp.obj",
+			"Event_Listener.cpp.obj",
+			"MulticastDelegateListener.cpp.obj",
+			"MulticastDelegateParamListener.cpp.obj",
+			"MulticastDelegateParamTrigger.cpp.obj",
+			"MulticastDelegateTrigger.cpp.obj",
+			"DeadZone.cpp.obj",
+			"Trophy.cpp.obj",
+			"YGameInstance.cpp.obj"
+		]
+	}
+}

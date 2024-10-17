@@ -14,7 +14,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BASIC_YCharBase_generated_h
 
-#define FID_MyBasic_Source_Basic_Character_YCharBase_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_MyBasic_Source_Basic_Character_YCharBase_h_13_CALLBACK_WRAPPERS
+#define FID_MyBasic_Source_Basic_Character_YCharBase_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAYCharBase(); \
 	friend struct Z_Construct_UClass_AYCharBase_Statics; \
@@ -23,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(AYCharBase)
 
 
-#define FID_MyBasic_Source_Basic_Character_YCharBase_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_MyBasic_Source_Basic_Character_YCharBase_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	AYCharBase(AYCharBase&&); \
@@ -35,12 +36,13 @@ public: \
 	NO_API virtual ~AYCharBase();
 
 
-#define FID_MyBasic_Source_Basic_Character_YCharBase_h_12_PROLOG
-#define FID_MyBasic_Source_Basic_Character_YCharBase_h_15_GENERATED_BODY \
+#define FID_MyBasic_Source_Basic_Character_YCharBase_h_10_PROLOG
+#define FID_MyBasic_Source_Basic_Character_YCharBase_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_MyBasic_Source_Basic_Character_YCharBase_h_15_INCLASS_NO_PURE_DECLS \
-	FID_MyBasic_Source_Basic_Character_YCharBase_h_15_ENHANCED_CONSTRUCTORS \
+	FID_MyBasic_Source_Basic_Character_YCharBase_h_13_CALLBACK_WRAPPERS \
+	FID_MyBasic_Source_Basic_Character_YCharBase_h_13_INCLASS_NO_PURE_DECLS \
+	FID_MyBasic_Source_Basic_Character_YCharBase_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -11,6 +11,7 @@
     <None Include="..\..\Source\BasicEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -53,6 +54,12 @@
     <ClInclude Include="..\..\Source\Basic\Test.h">
       <Filter>Source\Basic</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Basic\YGameInstance.cpp">
+      <Filter>Source\Basic</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\YGameInstance.h">
+      <Filter>Source\Basic</Filter>
+    </ClInclude>
     <Filter Include="Source\Basic\Character">
       <UniqueIdentifier>{16259AB2-8DDE-3AF8-AD1B-0C530E0586AC}</UniqueIdentifier>
     </Filter>
@@ -62,9 +69,93 @@
     <ClInclude Include="..\..\Source\Basic\Character\YCharBase.h">
       <Filter>Source\Basic\Character</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Basic\Character\YCharBase_AnimInstance.cpp">
+      <Filter>Source\Basic\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\Character\YCharBase_AnimInstance.h">
+      <Filter>Source\Basic\Character</Filter>
+    </ClInclude>
+    <Filter Include="Source\Basic\EventAndDelegate">
+      <UniqueIdentifier>{158A592A-4E0D-3A86-9E43-812C172CF396}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Basic\EventAndDelegate\DelegateListener.cpp">
+      <Filter>Source\Basic\EventAndDelegate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\EventAndDelegate\DelegateListener.h">
+      <Filter>Source\Basic\EventAndDelegate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Basic\EventAndDelegate\DelegateParamListener.cpp">
+      <Filter>Source\Basic\EventAndDelegate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\EventAndDelegate\DelegateParamListener.h">
+      <Filter>Source\Basic\EventAndDelegate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Basic\EventAndDelegate\DelegateParamTrigger.cpp">
+      <Filter>Source\Basic\EventAndDelegate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\EventAndDelegate\DelegateParamTrigger.h">
+      <Filter>Source\Basic\EventAndDelegate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Basic\EventAndDelegate\DelegateTrigger.cpp">
+      <Filter>Source\Basic\EventAndDelegate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\EventAndDelegate\DelegateTrigger.h">
+      <Filter>Source\Basic\EventAndDelegate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Basic\EventAndDelegate\EventTrigger.cpp">
+      <Filter>Source\Basic\EventAndDelegate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\EventAndDelegate\EventTrigger.h">
+      <Filter>Source\Basic\EventAndDelegate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Basic\EventAndDelegate\Event_Listener.cpp">
+      <Filter>Source\Basic\EventAndDelegate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\EventAndDelegate\Event_Listener.h">
+      <Filter>Source\Basic\EventAndDelegate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Basic\EventAndDelegate\MulticastDelegateListener.cpp">
+      <Filter>Source\Basic\EventAndDelegate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\EventAndDelegate\MulticastDelegateListener.h">
+      <Filter>Source\Basic\EventAndDelegate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Basic\EventAndDelegate\MulticastDelegateParamListener.cpp">
+      <Filter>Source\Basic\EventAndDelegate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\EventAndDelegate\MulticastDelegateParamListener.h">
+      <Filter>Source\Basic\EventAndDelegate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Basic\EventAndDelegate\MulticastDelegateParamTrigger.cpp">
+      <Filter>Source\Basic\EventAndDelegate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\EventAndDelegate\MulticastDelegateParamTrigger.h">
+      <Filter>Source\Basic\EventAndDelegate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Basic\EventAndDelegate\MulticastDelegateTrigger.cpp">
+      <Filter>Source\Basic\EventAndDelegate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\EventAndDelegate\MulticastDelegateTrigger.h">
+      <Filter>Source\Basic\EventAndDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Basic\EventAndDelegate\YDelegateDefine.h">
+      <Filter>Source\Basic\EventAndDelegate</Filter>
+    </ClInclude>
     <Filter Include="Source\Basic\Gimmick">
       <UniqueIdentifier>{0CCAACC2-9F8A-3FEF-8C1C-60DCF4D74407}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Basic\Gimmick\DeadZone.cpp">
+      <Filter>Source\Basic\Gimmick</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\Gimmick\DeadZone.h">
+      <Filter>Source\Basic\Gimmick</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Basic\Gimmick\Trophy.cpp">
+      <Filter>Source\Basic\Gimmick</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\Gimmick\Trophy.h">
+      <Filter>Source\Basic\Gimmick</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Basic\Gimmick\YMovingPlatform.cpp">
       <Filter>Source\Basic\Gimmick</Filter>
     </ClCompile>

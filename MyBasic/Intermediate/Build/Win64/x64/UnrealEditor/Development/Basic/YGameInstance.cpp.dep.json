@@ -1,0 +1,16 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\ue5_programming\\mybasic\\source\\basic\\ygameinstance.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\ue5_programming\\mybasic\\intermediate\\build\\win64\\x64\\basiceditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
+        "Includes": [
+            "d:\\ue5_programming\\mybasic\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\basic\\definitions.basic.h",
+            "d:\\ue5_programming\\mybasic\\source\\basic\\ygameinstance.h",
+            "d:\\ue5_programming\\mybasic\\source\\basic\\eventanddelegate\\ydelegatedefine.h",
+            "d:\\ue5_programming\\mybasic\\intermediate\\build\\win64\\unrealeditor\\inc\\basic\\uht\\ygameinstance.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
