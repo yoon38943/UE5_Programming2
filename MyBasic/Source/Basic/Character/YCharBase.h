@@ -42,9 +42,11 @@ public:
 
 public:
 	AYCharBase();
+
+	FDelegateHandle DelegateHandle;
 	
-	UFUNCTION(BlueprintImplementableEvent)
-	void InputWidgetViewport_Implementation();
+	//UFUNCTION(BlueprintImplementableEvent)
+	//void InputWidgetViewport_Implementation();
 
 protected:
 	virtual void BeginPlay() override;

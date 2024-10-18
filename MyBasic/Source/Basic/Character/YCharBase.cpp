@@ -5,6 +5,7 @@
 #include "EnhancedInputSubsystems.h"
 #include "EnhancedInputComponent.h"
 #include "InputActionValue.h"
+#include "../YGameInstance.h"
 
 
 
@@ -27,6 +28,7 @@ AYCharBase::AYCharBase()
 	FollowCamera->bUsePawnControlRotation = false;
 
 }
+
 
 void AYCharBase::BeginPlay()
 {

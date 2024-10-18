@@ -20,33 +20,6 @@ ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputMappingContext_NoRegister();
 UPackage* Z_Construct_UPackage__Script_Basic();
 // End Cross Module References
 
-// Begin Class AYCharBase Function InputWidgetViewport_Implementation
-static FName NAME_AYCharBase_InputWidgetViewport_Implementation = FName(TEXT("InputWidgetViewport_Implementation"));
-void AYCharBase::InputWidgetViewport_Implementation()
-{
-	ProcessEvent(FindFunctionChecked(NAME_AYCharBase_InputWidgetViewport_Implementation),NULL);
-}
-struct Z_Construct_UFunction_AYCharBase_InputWidgetViewport_Implementation_Statics
-{
-#if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "Character/YCharBase.h" },
-	};
-#endif // WITH_METADATA
-	static const UECodeGen_Private::FFunctionParams FuncParams;
-};
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AYCharBase_InputWidgetViewport_Implementation_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AYCharBase, nullptr, "InputWidgetViewport_Implementation", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AYCharBase_InputWidgetViewport_Implementation_Statics::Function_MetaDataParams), Z_Construct_UFunction_AYCharBase_InputWidgetViewport_Implementation_Statics::Function_MetaDataParams) };
-UFunction* Z_Construct_UFunction_AYCharBase_InputWidgetViewport_Implementation()
-{
-	static UFunction* ReturnFunction = nullptr;
-	if (!ReturnFunction)
-	{
-		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AYCharBase_InputWidgetViewport_Implementation_Statics::FuncParams);
-	}
-	return ReturnFunction;
-}
-// End Class AYCharBase Function InputWidgetViewport_Implementation
-
 // Begin Class AYCharBase
 void AYCharBase::StaticRegisterNativesAYCharBase()
 {
@@ -101,10 +74,6 @@ struct Z_Construct_UClass_AYCharBase_Statics
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_IA_Jump;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
-	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_AYCharBase_InputWidgetViewport_Implementation, "InputWidgetViewport_Implementation" }, // 2878384950
-	};
-	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AYCharBase>::IsAbstract,
 	};
@@ -135,11 +104,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_AYCharBase_Statics::Cla
 	"Game",
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
-	FuncInfo,
+	nullptr,
 	Z_Construct_UClass_AYCharBase_Statics::PropPointers,
 	nullptr,
 	UE_ARRAY_COUNT(DependentSingletons),
-	UE_ARRAY_COUNT(FuncInfo),
+	0,
 	UE_ARRAY_COUNT(Z_Construct_UClass_AYCharBase_Statics::PropPointers),
 	0,
 	0x009000A4u,
@@ -165,10 +134,10 @@ AYCharBase::~AYCharBase() {}
 struct Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Character_YCharBase_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AYCharBase, AYCharBase::StaticClass, TEXT("AYCharBase"), &Z_Registration_Info_UClass_AYCharBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AYCharBase), 3749811909U) },
+		{ Z_Construct_UClass_AYCharBase, AYCharBase::StaticClass, TEXT("AYCharBase"), &Z_Registration_Info_UClass_AYCharBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AYCharBase), 3237724692U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Character_YCharBase_h_3326102003(TEXT("/Script/Basic"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Character_YCharBase_h_1424072993(TEXT("/Script/Basic"),
 	Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Character_YCharBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Character_YCharBase_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

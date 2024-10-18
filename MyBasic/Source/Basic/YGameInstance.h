@@ -18,4 +18,6 @@ public:
 	FMulticastDelegateSignature MulticastDelegateSignature;
 	FMulticastDelegateSignature1 MulticastDelegateSignature1;
 	FMulticastDelegateSignature2 MulticastDelegateSignature2;
+
+	FMD_GameEnd MD_GameEnd;
 };

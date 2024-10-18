@@ -14,7 +14,6 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BASIC_YCharBase_generated_h
 
-#define FID_MyBasic_Source_Basic_Character_YCharBase_h_13_CALLBACK_WRAPPERS
 #define FID_MyBasic_Source_Basic_Character_YCharBase_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAYCharBase(); \
@@ -40,7 +39,6 @@ public: \
 #define FID_MyBasic_Source_Basic_Character_YCharBase_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_MyBasic_Source_Basic_Character_YCharBase_h_13_CALLBACK_WRAPPERS \
 	FID_MyBasic_Source_Basic_Character_YCharBase_h_13_INCLASS_NO_PURE_DECLS \
 	FID_MyBasic_Source_Basic_Character_YCharBase_h_13_ENHANCED_CONSTRUCTORS \
 private: \

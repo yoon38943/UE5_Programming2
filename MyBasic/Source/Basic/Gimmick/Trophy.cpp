@@ -1,5 +1,6 @@
 #include "Trophy.h"
 #include "Components/SceneComponent.h"
+#include "../YGameInstance.h"
 #include "GameFramework/RotatingMovementComponent.h"
 
 
@@ -50,6 +51,16 @@ void ATrophy::Tick(float DeltaTime)
 void ATrophy::OnOverlapTrophyMesh(UPrimitiveComponent* OverlappedCompt, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 	GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Blue, FString::Printf(TEXT("On Overlap Begin~~ Name : %s \nYou Win!!"), *OtherActor->GetName()));
-	Destroy();
+	/*Destroy();*/
+
+	UWorld* World = GetWorld();
+	if (World != nullptr)
+	{
+		UYGameInstance* YGI = Cast<UYGameInstance>(World->GetGameInstance());
+		if (YGI != nullptr)
+		{
+			YGI->MD_GameEnd.Broadcast(1);
+		}
+	}
 }
 

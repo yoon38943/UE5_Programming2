@@ -63,10 +63,22 @@
     <Filter Include="Source\Basic\Character">
       <UniqueIdentifier>{16259AB2-8DDE-3AF8-AD1B-0C530E0586AC}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Basic\Character\PlatformPlayerController.cpp">
+      <Filter>Source\Basic\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\Character\PlatformPlayerController.h">
+      <Filter>Source\Basic\Character</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Basic\Character\YCharBase.cpp">
       <Filter>Source\Basic\Character</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Basic\Character\YCharBase.h">
+      <Filter>Source\Basic\Character</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Basic\Character\YCharBasePlatform.cpp">
+      <Filter>Source\Basic\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\Character\YCharBasePlatform.h">
       <Filter>Source\Basic\Character</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Basic\Character\YCharBase_AnimInstance.cpp">
@@ -74,6 +86,21 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\Basic\Character\YCharBase_AnimInstance.h">
       <Filter>Source\Basic\Character</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Basic\Character\YCharShooter.cpp">
+      <Filter>Source\Basic\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\Character\YCharShooter.h">
+      <Filter>Source\Basic\Character</Filter>
+    </ClInclude>
+    <Filter Include="Source\Basic\ETC">
+      <UniqueIdentifier>{0ABD808A-2D64-32FB-9AF5-94B6C68EB8B0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Basic\ETC\Gun.cpp">
+      <Filter>Source\Basic\ETC</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\ETC\Gun.h">
+      <Filter>Source\Basic\ETC</Filter>
     </ClInclude>
     <Filter Include="Source\Basic\EventAndDelegate">
       <UniqueIdentifier>{158A592A-4E0D-3A86-9E43-812C172CF396}</UniqueIdentifier>

@@ -19,5 +19,7 @@ DECLARE_DELEGATE_TwoParams(FDelegateSignatureParam2, FLinearColor, int32)
 DECLARE_MULTICAST_DELEGATE(FMulticastDelegateSignature)
 // 멀티캐스트 델리게이트에 인자 1개를 전달
 DECLARE_MULTICAST_DELEGATE_OneParam(FMulticastDelegateSignature1, FLinearColor)
+DECLARE_MULTICAST_DELEGATE_OneParam(FMD_GameEnd, int32)
+
 // 멀티캐스트 델리게이트에 인자 2개를 전달
 DECLARE_MULTICAST_DELEGATE_TwoParams(FMulticastDelegateSignature2, FLinearColor, int32)

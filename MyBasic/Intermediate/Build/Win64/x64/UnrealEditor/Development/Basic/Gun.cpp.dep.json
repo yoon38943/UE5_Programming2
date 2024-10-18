@@ -1,0 +1,25 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\ue5_programming\\mybasic\\source\\basic\\etc\\gun.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\ue5_programming\\mybasic\\intermediate\\build\\win64\\x64\\basiceditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
+        "Includes": [
+            "d:\\ue5_programming\\mybasic\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\basic\\definitions.basic.h",
+            "d:\\ue5_programming\\mybasic\\source\\basic\\etc\\gun.h",
+            "d:\\ue5_programming\\mybasic\\intermediate\\build\\win64\\unrealeditor\\inc\\basic\\uht\\gun.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystatics.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetsystemlibrary.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetsystemlibrary.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\sound\\dialoguetypes.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\dialoguetypes.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystaticstypes.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystaticstypes.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystatics.generated.h",
+            "d:\\ue5_programming\\mybasic\\source\\basic\\hdebugmacros.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
