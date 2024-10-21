@@ -189,5 +189,32 @@
     <ClInclude Include="..\..\Source\Basic\Gimmick\YMovingPlatform.h">
       <Filter>Source\Basic\Gimmick</Filter>
     </ClInclude>
+    <Filter Include="Source\Basic\Shooting">
+      <UniqueIdentifier>{19B2E60D-180E-353D-AB31-59DFCD5FC944}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Basic\Shooting\BTS_PlayerLocationIfSeen.cpp">
+      <Filter>Source\Basic\Shooting</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\Shooting\BTS_PlayerLocationIfSeen.h">
+      <Filter>Source\Basic\Shooting</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Basic\Shooting\ShooterAIController.cpp">
+      <Filter>Source\Basic\Shooting</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\Shooting\ShooterAIController.h">
+      <Filter>Source\Basic\Shooting</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Basic\Shooting\ShooterPlayerController.cpp">
+      <Filter>Source\Basic\Shooting</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\Shooting\ShooterPlayerController.h">
+      <Filter>Source\Basic\Shooting</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Basic\Shooting\YCharShooterAnimInstance.cpp">
+      <Filter>Source\Basic\Shooting</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\Shooting\YCharShooterAnimInstance.h">
+      <Filter>Source\Basic\Shooting</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

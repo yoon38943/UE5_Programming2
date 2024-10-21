@@ -14,6 +14,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BASIC_YCharShooter_generated_h
 
+#define FID_MyBasic_Source_Basic_Character_YCharShooter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execGetHealthPercent); \
+	DECLARE_FUNCTION(execIsDead);
+
+
 #define FID_MyBasic_Source_Basic_Character_YCharShooter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAYCharShooter(); \
@@ -41,6 +46,7 @@ public: \
 #define FID_MyBasic_Source_Basic_Character_YCharShooter_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	FID_MyBasic_Source_Basic_Character_YCharShooter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
 	FID_MyBasic_Source_Basic_Character_YCharShooter_h_12_INCLASS_NO_PURE_DECLS \
 	FID_MyBasic_Source_Basic_Character_YCharShooter_h_12_ENHANCED_CONSTRUCTORS \
 private: \

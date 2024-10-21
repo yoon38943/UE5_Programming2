@@ -1,0 +1,32 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\ue5_programming\\mybasic\\source\\basic\\shooting\\ycharshooteraniminstance.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\ue5_programming\\mybasic\\intermediate\\build\\win64\\x64\\basiceditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
+        "Includes": [
+            "d:\\ue5_programming\\mybasic\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\basic\\definitions.basic.h",
+            "d:\\ue5_programming\\mybasic\\source\\basic\\shooting\\ycharshooteraniminstance.h",
+            "d:\\ue5_programming\\mybasic\\source\\basic\\character\\ycharbase_animinstance.h",
+            "d:\\ue5_programming\\mybasic\\intermediate\\build\\win64\\unrealeditor\\inc\\basic\\uht\\ycharbase_animinstance.generated.h",
+            "d:\\ue5_programming\\mybasic\\intermediate\\build\\win64\\unrealeditor\\inc\\basic\\uht\\ycharshooteraniminstance.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetmathlibrary.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.inl",
+            "d:\\ue5_programming\\mybasic\\source\\basic\\character\\ycharshooter.h",
+            "d:\\ue5_programming\\mybasic\\source\\basic\\character\\ycharbase.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "d:\\ue5_programming\\mybasic\\intermediate\\build\\win64\\unrealeditor\\inc\\basic\\uht\\ycharbase.generated.h",
+            "d:\\ue5_programming\\mybasic\\intermediate\\build\\win64\\unrealeditor\\inc\\basic\\uht\\ycharshooter.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
