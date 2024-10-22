@@ -24,7 +24,7 @@ private:
 	class USoundBase* ImpactSound;
 
 	UPROPERTY(EditAnywhere)
-	float MaxRange = 1000;
+	float MaxRange = 2000;
 	UPROPERTY(EditAnywhere)
 	float Damage = 10;
 		
@@ -37,6 +37,7 @@ protected:
 public:	
 	virtual void Tick(float DeltaTime) override;
 
+	int SetDamage(int32 SDamage) { return Damage = SDamage; }
 	void PullTrigger();
 
 private:

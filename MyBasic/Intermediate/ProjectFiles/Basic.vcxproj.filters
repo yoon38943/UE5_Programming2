@@ -198,10 +198,28 @@
     <ClInclude Include="..\..\Source\Basic\Shooting\BTS_PlayerLocationIfSeen.h">
       <Filter>Source\Basic\Shooting</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Basic\Shooting\BTT_ClearBlackboard.cpp">
+      <Filter>Source\Basic\Shooting</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\Shooting\BTT_ClearBlackboard.h">
+      <Filter>Source\Basic\Shooting</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Basic\Shooting\BTT_Shoot.cpp">
+      <Filter>Source\Basic\Shooting</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\Shooting\BTT_Shoot.h">
+      <Filter>Source\Basic\Shooting</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Basic\Shooting\ShooterAIController.cpp">
       <Filter>Source\Basic\Shooting</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Basic\Shooting\ShooterAIController.h">
+      <Filter>Source\Basic\Shooting</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Basic\Shooting\ShooterGameModeBase.cpp">
+      <Filter>Source\Basic\Shooting</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\Shooting\ShooterGameModeBase.h">
       <Filter>Source\Basic\Shooting</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Basic\Shooting\ShooterPlayerController.cpp">

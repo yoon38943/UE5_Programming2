@@ -356,10 +356,22 @@
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\Basic\Shooting\BTS_PlayerLocationIfSeen.h"/>
+    <ClCompile Include="..\..\Source\Basic\Shooting\BTT_ClearBlackboard.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\Shooting\BTT_ClearBlackboard.h"/>
+    <ClCompile Include="..\..\Source\Basic\Shooting\BTT_Shoot.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\Shooting\BTT_Shoot.h"/>
     <ClCompile Include="..\..\Source\Basic\Shooting\ShooterAIController.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\Basic\Shooting\ShooterAIController.h"/>
+    <ClCompile Include="..\..\Source\Basic\Shooting\ShooterGameModeBase.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\Shooting\ShooterGameModeBase.h"/>
     <ClCompile Include="..\..\Source\Basic\Shooting\ShooterPlayerController.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
