@@ -275,6 +275,18 @@
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\Basic\YGameInstance.h"/>
+    <ClCompile Include="..\..\Source\Basic\Action\BaseEquippable.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\Action\BaseEquippable.h"/>
+    <ClCompile Include="..\..\Source\Basic\Action\YCharAction.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\Action\YCharAction.h"/>
+    <ClCompile Include="..\..\Source\Basic\Action\YCharActionAnimInstance.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\Action\YCharActionAnimInstance.h"/>
     <ClCompile Include="..\..\Source\Basic\Character\PlatformPlayerController.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>

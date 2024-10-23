@@ -60,6 +60,27 @@
     <ClInclude Include="..\..\Source\Basic\YGameInstance.h">
       <Filter>Source\Basic</Filter>
     </ClInclude>
+    <Filter Include="Source\Basic\Action">
+      <UniqueIdentifier>{147F6E4C-369B-37A6-9298-005021D90C7D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Basic\Action\BaseEquippable.cpp">
+      <Filter>Source\Basic\Action</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\Action\BaseEquippable.h">
+      <Filter>Source\Basic\Action</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Basic\Action\YCharAction.cpp">
+      <Filter>Source\Basic\Action</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\Action\YCharAction.h">
+      <Filter>Source\Basic\Action</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Basic\Action\YCharActionAnimInstance.cpp">
+      <Filter>Source\Basic\Action</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basic\Action\YCharActionAnimInstance.h">
+      <Filter>Source\Basic\Action</Filter>
+    </ClInclude>
     <Filter Include="Source\Basic\Character">
       <UniqueIdentifier>{16259AB2-8DDE-3AF8-AD1B-0C530E0586AC}</UniqueIdentifier>
     </Filter>
