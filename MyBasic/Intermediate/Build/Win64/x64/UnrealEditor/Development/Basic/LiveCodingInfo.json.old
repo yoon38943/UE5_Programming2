@@ -33,9 +33,9 @@
 			"YCharBase_AnimInstance.gen.cpp.obj",
 			"YCharShooter.gen.cpp.obj",
 			"YCharShooterAnimInstance.gen.cpp.obj",
+			"YEnumFile.gen.cpp.obj",
 			"YGameInstance.gen.cpp.obj",
 			"YMovingPlatform.gen.cpp.obj",
-			"BaseEquippable.cpp.obj",
 			"YCharAction.cpp.obj",
 			"YCharActionAnimInstance.cpp.obj",
 			"Basic.cpp.obj",
@@ -67,7 +67,8 @@
 			"ShooterPlayerController.cpp.obj",
 			"YCharShooterAnimInstance.cpp.obj",
 			"Test.cpp.obj",
-			"YGameInstance.cpp.obj"
+			"YGameInstance.cpp.obj",
+			"BaseEquippable.cpp.obj"
 		]
 	}
 }

@@ -16,12 +16,14 @@ class UPrimitiveComponent;
 #define BASIC_BaseEquippable_generated_h
 
 #define FID_MyBasic_Source_Basic_Action_BaseEquippable_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual void OnEquipped_Implementation(); \
 	DECLARE_FUNCTION(execOnUnEquipped); \
 	DECLARE_FUNCTION(execOnEquipped); \
 	DECLARE_FUNCTION(execAttachActor); \
 	DECLARE_FUNCTION(execGetItemMesh);
 
 
+#define FID_MyBasic_Source_Basic_Action_BaseEquippable_h_10_CALLBACK_WRAPPERS
 #define FID_MyBasic_Source_Basic_Action_BaseEquippable_h_10_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABaseEquippable(); \
@@ -48,6 +50,7 @@ public: \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	FID_MyBasic_Source_Basic_Action_BaseEquippable_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_MyBasic_Source_Basic_Action_BaseEquippable_h_10_CALLBACK_WRAPPERS \
 	FID_MyBasic_Source_Basic_Action_BaseEquippable_h_10_INCLASS_NO_PURE_DECLS \
 	FID_MyBasic_Source_Basic_Action_BaseEquippable_h_10_ENHANCED_CONSTRUCTORS \
 private: \

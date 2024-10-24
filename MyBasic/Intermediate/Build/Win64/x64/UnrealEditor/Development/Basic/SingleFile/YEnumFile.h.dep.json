@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\ue5_programming\\mybasic\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\basic\\singlefile\\yenumfile.h",
+        "ProvidedModule": "",
+        "Includes": [
+            "d:\\ue5_programming\\mybasic\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\basic\\definitions.basic.h",
+            "d:\\ue5_programming\\mybasic\\intermediate\\build\\win64\\x64\\basiceditor\\development\\unrealed\\shareddefinitions.unrealed.project.valapi.cpp20.inclorderoldest.h",
+            "d:\\ue5_programming\\mybasic\\source\\basic\\action\\yenumfile.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

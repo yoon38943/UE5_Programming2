@@ -108,16 +108,27 @@ DEFINE_FUNCTION(ABaseEquippable::execGetItemMesh)
 // End Class ABaseEquippable Function GetItemMesh
 
 // Begin Class ABaseEquippable Function OnEquipped
+static FName NAME_ABaseEquippable_OnEquipped = FName(TEXT("OnEquipped"));
+void ABaseEquippable::OnEquipped()
+{
+	ProcessEvent(FindFunctionChecked(NAME_ABaseEquippable_OnEquipped),NULL);
+}
 struct Z_Construct_UFunction_ABaseEquippable_OnEquipped_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// \xef\xbf\xbd\xc4\xbb\xef\xbf\xbd\xc5\xac\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd BP\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xcc\xb5\xef\xbf\xbd \xef\xbf\xbd\xcf\xb4\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\n" },
+#endif
 		{ "ModuleRelativePath", "Action/BaseEquippable.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "\xef\xbf\xbd\xc4\xbb\xef\xbf\xbd\xc5\xac\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd BP\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xcc\xb5\xef\xbf\xbd \xef\xbf\xbd\xcf\xb4\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ABaseEquippable_OnEquipped_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABaseEquippable, nullptr, "OnEquipped", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ABaseEquippable_OnEquipped_Statics::Function_MetaDataParams), Z_Construct_UFunction_ABaseEquippable_OnEquipped_Statics::Function_MetaDataParams) };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ABaseEquippable_OnEquipped_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABaseEquippable, nullptr, "OnEquipped", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020C00, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ABaseEquippable_OnEquipped_Statics::Function_MetaDataParams), Z_Construct_UFunction_ABaseEquippable_OnEquipped_Statics::Function_MetaDataParams) };
 UFunction* Z_Construct_UFunction_ABaseEquippable_OnEquipped()
 {
 	static UFunction* ReturnFunction = nullptr;
@@ -131,7 +142,7 @@ DEFINE_FUNCTION(ABaseEquippable::execOnEquipped)
 {
 	P_FINISH;
 	P_NATIVE_BEGIN;
-	P_THIS->OnEquipped();
+	P_THIS->OnEquipped_Implementation();
 	P_NATIVE_END;
 }
 // End Class ABaseEquippable Function OnEquipped
@@ -146,7 +157,7 @@ struct Z_Construct_UFunction_ABaseEquippable_OnUnEquipped_Statics
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ABaseEquippable_OnUnEquipped_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABaseEquippable, nullptr, "OnUnEquipped", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ABaseEquippable_OnUnEquipped_Statics::Function_MetaDataParams), Z_Construct_UFunction_ABaseEquippable_OnUnEquipped_Statics::Function_MetaDataParams) };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ABaseEquippable_OnUnEquipped_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABaseEquippable, nullptr, "OnUnEquipped", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ABaseEquippable_OnUnEquipped_Statics::Function_MetaDataParams), Z_Construct_UFunction_ABaseEquippable_OnUnEquipped_Statics::Function_MetaDataParams) };
 UFunction* Z_Construct_UFunction_ABaseEquippable_OnUnEquipped()
 {
 	static UFunction* ReturnFunction = nullptr;
@@ -204,7 +215,7 @@ struct Z_Construct_UClass_ABaseEquippable_Statics
 		{ "ModuleRelativePath", "Action/BaseEquippable.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AttachSocketName_MetaData[] = {
-		{ "Category", "BaseEquippable" },
+		{ "Category", "socketname" },
 		{ "ModuleRelativePath", "Action/BaseEquippable.h" },
 	};
 #endif // WITH_METADATA
@@ -218,8 +229,8 @@ struct Z_Construct_UClass_ABaseEquippable_Statics
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
 		{ &Z_Construct_UFunction_ABaseEquippable_AttachActor, "AttachActor" }, // 2556347883
 		{ &Z_Construct_UFunction_ABaseEquippable_GetItemMesh, "GetItemMesh" }, // 2018011583
-		{ &Z_Construct_UFunction_ABaseEquippable_OnEquipped, "OnEquipped" }, // 2526438600
-		{ &Z_Construct_UFunction_ABaseEquippable_OnUnEquipped, "OnUnEquipped" }, // 1388047663
+		{ &Z_Construct_UFunction_ABaseEquippable_OnEquipped, "OnEquipped" }, // 3409265849
+		{ &Z_Construct_UFunction_ABaseEquippable_OnUnEquipped, "OnUnEquipped" }, // 1315410080
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -282,10 +293,10 @@ ABaseEquippable::~ABaseEquippable() {}
 struct Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Action_BaseEquippable_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ABaseEquippable, ABaseEquippable::StaticClass, TEXT("ABaseEquippable"), &Z_Registration_Info_UClass_ABaseEquippable, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABaseEquippable), 1110128410U) },
+		{ Z_Construct_UClass_ABaseEquippable, ABaseEquippable::StaticClass, TEXT("ABaseEquippable"), &Z_Registration_Info_UClass_ABaseEquippable, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABaseEquippable), 2939257900U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Action_BaseEquippable_h_1312050620(TEXT("/Script/Basic"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Action_BaseEquippable_h_2961731580(TEXT("/Script/Basic"),
 	Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Action_BaseEquippable_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Action_BaseEquippable_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

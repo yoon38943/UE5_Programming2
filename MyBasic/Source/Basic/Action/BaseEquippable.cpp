@@ -54,7 +54,7 @@ void ABaseEquippable::AttachActor(FName SocketName)
 	}
 }
 
-void ABaseEquippable::OnEquipped()
+void ABaseEquippable::OnEquipped_Implementation()
 {
 	IsEquipped = true;
 	AttachActor(AttachSocketName);

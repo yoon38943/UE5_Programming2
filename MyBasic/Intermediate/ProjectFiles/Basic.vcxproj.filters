@@ -256,4 +256,9 @@
       <Filter>Source\Basic\Shooting</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Basic\Action\YEnumFile.h">
+      <Filter>Source\Basic\Action</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
