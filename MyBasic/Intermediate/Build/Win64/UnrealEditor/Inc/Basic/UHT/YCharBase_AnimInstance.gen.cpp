@@ -145,14 +145,14 @@ UYCharBase_AnimInstance::~UYCharBase_AnimInstance() {}
 // End Class UYCharBase_AnimInstance
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Character_YCharBase_AnimInstance_h_Statics
+struct Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_Character_YCharBase_AnimInstance_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_UYCharBase_AnimInstance, UYCharBase_AnimInstance::StaticClass, TEXT("UYCharBase_AnimInstance"), &Z_Registration_Info_UClass_UYCharBase_AnimInstance, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UYCharBase_AnimInstance), 1813010206U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Character_YCharBase_AnimInstance_h_235150485(TEXT("/Script/Basic"),
-	Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Character_YCharBase_AnimInstance_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Character_YCharBase_AnimInstance_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_Character_YCharBase_AnimInstance_h_235150485(TEXT("/Script/Basic"),
+	Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_Character_YCharBase_AnimInstance_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_Character_YCharBase_AnimInstance_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

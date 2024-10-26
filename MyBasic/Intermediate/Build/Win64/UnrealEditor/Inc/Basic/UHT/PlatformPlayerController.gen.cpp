@@ -105,14 +105,14 @@ APlatformPlayerController::~APlatformPlayerController() {}
 // End Class APlatformPlayerController
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Character_PlatformPlayerController_h_Statics
+struct Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_Character_PlatformPlayerController_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_APlatformPlayerController, APlatformPlayerController::StaticClass, TEXT("APlatformPlayerController"), &Z_Registration_Info_UClass_APlatformPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlatformPlayerController), 272842534U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Character_PlatformPlayerController_h_3720882457(TEXT("/Script/Basic"),
-	Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Character_PlatformPlayerController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Character_PlatformPlayerController_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_Character_PlatformPlayerController_h_3720882457(TEXT("/Script/Basic"),
+	Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_Character_PlatformPlayerController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_Character_PlatformPlayerController_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

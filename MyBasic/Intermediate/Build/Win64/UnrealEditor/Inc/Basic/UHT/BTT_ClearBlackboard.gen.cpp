@@ -76,14 +76,14 @@ UBTT_ClearBlackboard::~UBTT_ClearBlackboard() {}
 // End Class UBTT_ClearBlackboard
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Shooting_BTT_ClearBlackboard_h_Statics
+struct Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_Shooting_BTT_ClearBlackboard_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_UBTT_ClearBlackboard, UBTT_ClearBlackboard::StaticClass, TEXT("UBTT_ClearBlackboard"), &Z_Registration_Info_UClass_UBTT_ClearBlackboard, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UBTT_ClearBlackboard), 3098616315U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Shooting_BTT_ClearBlackboard_h_2665555203(TEXT("/Script/Basic"),
-	Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Shooting_BTT_ClearBlackboard_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Shooting_BTT_ClearBlackboard_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_Shooting_BTT_ClearBlackboard_h_2665555203(TEXT("/Script/Basic"),
+	Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_Shooting_BTT_ClearBlackboard_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_Shooting_BTT_ClearBlackboard_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

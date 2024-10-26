@@ -160,14 +160,14 @@ ATest::~ATest() {}
 // End Class ATest
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Test_h_Statics
+struct Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_Test_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_ATest, ATest::StaticClass, TEXT("ATest"), &Z_Registration_Info_UClass_ATest, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATest), 1916995011U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Test_h_524593974(TEXT("/Script/Basic"),
-	Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Test_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Test_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_Test_h_524593974(TEXT("/Script/Basic"),
+	Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_Test_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_Test_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

@@ -81,6 +81,9 @@
     <ClInclude Include="..\..\Source\Basic\Action\YCharActionAnimInstance.h">
       <Filter>Source\Basic\Action</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Basic\Action\YEnumFile.h">
+      <Filter>Source\Basic\Action</Filter>
+    </ClInclude>
     <Filter Include="Source\Basic\Character">
       <UniqueIdentifier>{16259AB2-8DDE-3AF8-AD1B-0C530E0586AC}</UniqueIdentifier>
     </Filter>
@@ -254,11 +257,6 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\Basic\Shooting\YCharShooterAnimInstance.h">
       <Filter>Source\Basic\Shooting</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Basic\Action\YEnumFile.h">
-      <Filter>Source\Basic\Action</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

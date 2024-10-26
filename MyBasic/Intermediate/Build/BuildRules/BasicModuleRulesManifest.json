@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\UE5_Programming\\MyBasic\\Source\\Basic\\Basic.Build.cs",
-		"D:\\UE5_Programming\\MyBasic\\Source\\Basic.Target.cs",
-		"D:\\UE5_Programming\\MyBasic\\Source\\BasicEditor.Target.cs"
+		"D:\\My_UE5_Programming\\MyBasic\\Source\\Basic\\Basic.Build.cs",
+		"D:\\My_UE5_Programming\\MyBasic\\Source\\Basic.Target.cs",
+		"D:\\My_UE5_Programming\\MyBasic\\Source\\BasicEditor.Target.cs"
 	],
 	"EngineVersion": "5.4.4"
 }

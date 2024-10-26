@@ -1,13 +1,13 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "d:\\ue5_programming\\mybasic\\intermediate\\build\\win64\\unrealeditor\\inc\\basic\\uht\\test.gen.cpp",
+        "Source": "d:\\my_ue5_programming\\mybasic\\intermediate\\build\\win64\\unrealeditor\\inc\\basic\\uht\\test.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\ue5_programming\\mybasic\\intermediate\\build\\win64\\x64\\basiceditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
+        "PCH": "d:\\my_ue5_programming\\mybasic\\intermediate\\build\\win64\\x64\\basiceditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
         "Includes": [
-            "d:\\ue5_programming\\mybasic\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\basic\\definitions.basic.h",
-            "d:\\ue5_programming\\mybasic\\source\\basic\\test.h",
-            "d:\\ue5_programming\\mybasic\\intermediate\\build\\win64\\unrealeditor\\inc\\basic\\uht\\test.generated.h"
+            "d:\\my_ue5_programming\\mybasic\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\basic\\definitions.basic.h",
+            "d:\\my_ue5_programming\\mybasic\\source\\basic\\test.h",
+            "d:\\my_ue5_programming\\mybasic\\intermediate\\build\\win64\\unrealeditor\\inc\\basic\\uht\\test.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

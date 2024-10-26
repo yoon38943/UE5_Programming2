@@ -15,12 +15,12 @@ class AActor;
 #endif
 #define BASIC_EventTrigger_generated_h
 
-#define FID_MyBasic_Source_Basic_EventAndDelegate_EventTrigger_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_My_UE5_Programming_MyBasic_Source_Basic_EventAndDelegate_EventTrigger_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execNotifyActorEndOverlap); \
 	DECLARE_FUNCTION(execNotifyActorBeginOverlap);
 
 
-#define FID_MyBasic_Source_Basic_EventAndDelegate_EventTrigger_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_My_UE5_Programming_MyBasic_Source_Basic_EventAndDelegate_EventTrigger_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAEventTrigger(); \
 	friend struct Z_Construct_UClass_AEventTrigger_Statics; \
@@ -29,7 +29,7 @@ public: \
 	DECLARE_SERIALIZER(AEventTrigger)
 
 
-#define FID_MyBasic_Source_Basic_EventAndDelegate_EventTrigger_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_My_UE5_Programming_MyBasic_Source_Basic_EventAndDelegate_EventTrigger_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	AEventTrigger(AEventTrigger&&); \
@@ -41,13 +41,13 @@ public: \
 	NO_API virtual ~AEventTrigger();
 
 
-#define FID_MyBasic_Source_Basic_EventAndDelegate_EventTrigger_h_12_PROLOG
-#define FID_MyBasic_Source_Basic_EventAndDelegate_EventTrigger_h_15_GENERATED_BODY \
+#define FID_My_UE5_Programming_MyBasic_Source_Basic_EventAndDelegate_EventTrigger_h_12_PROLOG
+#define FID_My_UE5_Programming_MyBasic_Source_Basic_EventAndDelegate_EventTrigger_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_MyBasic_Source_Basic_EventAndDelegate_EventTrigger_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_MyBasic_Source_Basic_EventAndDelegate_EventTrigger_h_15_INCLASS_NO_PURE_DECLS \
-	FID_MyBasic_Source_Basic_EventAndDelegate_EventTrigger_h_15_ENHANCED_CONSTRUCTORS \
+	FID_My_UE5_Programming_MyBasic_Source_Basic_EventAndDelegate_EventTrigger_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_My_UE5_Programming_MyBasic_Source_Basic_EventAndDelegate_EventTrigger_h_15_INCLASS_NO_PURE_DECLS \
+	FID_My_UE5_Programming_MyBasic_Source_Basic_EventAndDelegate_EventTrigger_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -55,7 +55,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BASIC_API UClass* StaticClass<class AEventTrigger>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_MyBasic_Source_Basic_EventAndDelegate_EventTrigger_h
+#define CURRENT_FILE_ID FID_My_UE5_Programming_MyBasic_Source_Basic_EventAndDelegate_EventTrigger_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

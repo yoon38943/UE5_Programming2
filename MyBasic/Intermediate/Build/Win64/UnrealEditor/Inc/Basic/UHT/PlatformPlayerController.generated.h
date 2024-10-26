@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BASIC_PlatformPlayerController_generated_h
 
-#define FID_MyBasic_Source_Basic_Character_PlatformPlayerController_h_11_INCLASS_NO_PURE_DECLS \
+#define FID_My_UE5_Programming_MyBasic_Source_Basic_Character_PlatformPlayerController_h_11_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPlatformPlayerController(); \
 	friend struct Z_Construct_UClass_APlatformPlayerController_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(APlatformPlayerController)
 
 
-#define FID_MyBasic_Source_Basic_Character_PlatformPlayerController_h_11_ENHANCED_CONSTRUCTORS \
+#define FID_My_UE5_Programming_MyBasic_Source_Basic_Character_PlatformPlayerController_h_11_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APlatformPlayerController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -37,12 +37,12 @@ public: \
 	NO_API virtual ~APlatformPlayerController();
 
 
-#define FID_MyBasic_Source_Basic_Character_PlatformPlayerController_h_8_PROLOG
-#define FID_MyBasic_Source_Basic_Character_PlatformPlayerController_h_11_GENERATED_BODY \
+#define FID_My_UE5_Programming_MyBasic_Source_Basic_Character_PlatformPlayerController_h_8_PROLOG
+#define FID_My_UE5_Programming_MyBasic_Source_Basic_Character_PlatformPlayerController_h_11_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_MyBasic_Source_Basic_Character_PlatformPlayerController_h_11_INCLASS_NO_PURE_DECLS \
-	FID_MyBasic_Source_Basic_Character_PlatformPlayerController_h_11_ENHANCED_CONSTRUCTORS \
+	FID_My_UE5_Programming_MyBasic_Source_Basic_Character_PlatformPlayerController_h_11_INCLASS_NO_PURE_DECLS \
+	FID_My_UE5_Programming_MyBasic_Source_Basic_Character_PlatformPlayerController_h_11_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -50,7 +50,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BASIC_API UClass* StaticClass<class APlatformPlayerController>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_MyBasic_Source_Basic_Character_PlatformPlayerController_h
+#define CURRENT_FILE_ID FID_My_UE5_Programming_MyBasic_Source_Basic_Character_PlatformPlayerController_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

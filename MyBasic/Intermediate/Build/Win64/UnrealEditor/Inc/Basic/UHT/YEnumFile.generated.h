@@ -16,7 +16,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define BASIC_YEnumFile_generated_h
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_MyBasic_Source_Basic_Action_YEnumFile_h
+#define CURRENT_FILE_ID FID_My_UE5_Programming_MyBasic_Source_Basic_Action_YEnumFile_h
 
 
 #define FOREACH_ENUM_E_CHARACTERSTATE(op) \
