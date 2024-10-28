@@ -185,14 +185,14 @@ ADelegateTrigger::~ADelegateTrigger() {}
 // End Class ADelegateTrigger
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_EventAndDelegate_DelegateTrigger_h_Statics
+struct Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_EventAndDelegate_DelegateTrigger_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_ADelegateTrigger, ADelegateTrigger::StaticClass, TEXT("ADelegateTrigger"), &Z_Registration_Info_UClass_ADelegateTrigger, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ADelegateTrigger), 142593048U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_EventAndDelegate_DelegateTrigger_h_4279655213(TEXT("/Script/Basic"),
-	Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_EventAndDelegate_DelegateTrigger_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_EventAndDelegate_DelegateTrigger_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_EventAndDelegate_DelegateTrigger_h_4279655213(TEXT("/Script/Basic"),
+	Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_EventAndDelegate_DelegateTrigger_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_EventAndDelegate_DelegateTrigger_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

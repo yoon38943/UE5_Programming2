@@ -189,14 +189,14 @@ ADelegateParamListener::~ADelegateParamListener() {}
 // End Class ADelegateParamListener
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_EventAndDelegate_DelegateParamListener_h_Statics
+struct Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_EventAndDelegate_DelegateParamListener_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_ADelegateParamListener, ADelegateParamListener::StaticClass, TEXT("ADelegateParamListener"), &Z_Registration_Info_UClass_ADelegateParamListener, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ADelegateParamListener), 301854081U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_EventAndDelegate_DelegateParamListener_h_3987310075(TEXT("/Script/Basic"),
-	Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_EventAndDelegate_DelegateParamListener_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_EventAndDelegate_DelegateParamListener_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_EventAndDelegate_DelegateParamListener_h_3987310075(TEXT("/Script/Basic"),
+	Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_EventAndDelegate_DelegateParamListener_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_EventAndDelegate_DelegateParamListener_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

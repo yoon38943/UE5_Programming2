@@ -15,11 +15,11 @@ class AActor;
 #endif
 #define BASIC_DeadZone_generated_h
 
-#define FID_My_UE5_Programming_MyBasic_Source_Basic_Gimmick_DeadZone_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_MyBasic_Source_Basic_Gimmick_DeadZone_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execNotifyActorBeginOverlap);
 
 
-#define FID_My_UE5_Programming_MyBasic_Source_Basic_Gimmick_DeadZone_h_10_INCLASS_NO_PURE_DECLS \
+#define FID_MyBasic_Source_Basic_Gimmick_DeadZone_h_10_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesADeadZone(); \
 	friend struct Z_Construct_UClass_ADeadZone_Statics; \
@@ -28,7 +28,7 @@ public: \
 	DECLARE_SERIALIZER(ADeadZone)
 
 
-#define FID_My_UE5_Programming_MyBasic_Source_Basic_Gimmick_DeadZone_h_10_ENHANCED_CONSTRUCTORS \
+#define FID_MyBasic_Source_Basic_Gimmick_DeadZone_h_10_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ADeadZone(ADeadZone&&); \
@@ -40,13 +40,13 @@ public: \
 	NO_API virtual ~ADeadZone();
 
 
-#define FID_My_UE5_Programming_MyBasic_Source_Basic_Gimmick_DeadZone_h_7_PROLOG
-#define FID_My_UE5_Programming_MyBasic_Source_Basic_Gimmick_DeadZone_h_10_GENERATED_BODY \
+#define FID_MyBasic_Source_Basic_Gimmick_DeadZone_h_7_PROLOG
+#define FID_MyBasic_Source_Basic_Gimmick_DeadZone_h_10_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_My_UE5_Programming_MyBasic_Source_Basic_Gimmick_DeadZone_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_My_UE5_Programming_MyBasic_Source_Basic_Gimmick_DeadZone_h_10_INCLASS_NO_PURE_DECLS \
-	FID_My_UE5_Programming_MyBasic_Source_Basic_Gimmick_DeadZone_h_10_ENHANCED_CONSTRUCTORS \
+	FID_MyBasic_Source_Basic_Gimmick_DeadZone_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_MyBasic_Source_Basic_Gimmick_DeadZone_h_10_INCLASS_NO_PURE_DECLS \
+	FID_MyBasic_Source_Basic_Gimmick_DeadZone_h_10_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -54,7 +54,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BASIC_API UClass* StaticClass<class ADeadZone>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_My_UE5_Programming_MyBasic_Source_Basic_Gimmick_DeadZone_h
+#define CURRENT_FILE_ID FID_MyBasic_Source_Basic_Gimmick_DeadZone_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

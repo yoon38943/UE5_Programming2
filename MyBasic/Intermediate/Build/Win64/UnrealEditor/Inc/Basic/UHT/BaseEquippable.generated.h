@@ -15,7 +15,7 @@ class UPrimitiveComponent;
 #endif
 #define BASIC_BaseEquippable_generated_h
 
-#define FID_My_UE5_Programming_MyBasic_Source_Basic_Action_BaseEquippable_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_MyBasic_Source_Basic_Action_BaseEquippable_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
 	virtual void OnEquipped_Implementation(); \
 	DECLARE_FUNCTION(execOnUnEquipped); \
 	DECLARE_FUNCTION(execOnEquipped); \
@@ -23,8 +23,8 @@ class UPrimitiveComponent;
 	DECLARE_FUNCTION(execGetItemMesh);
 
 
-#define FID_My_UE5_Programming_MyBasic_Source_Basic_Action_BaseEquippable_h_10_CALLBACK_WRAPPERS
-#define FID_My_UE5_Programming_MyBasic_Source_Basic_Action_BaseEquippable_h_10_INCLASS_NO_PURE_DECLS \
+#define FID_MyBasic_Source_Basic_Action_BaseEquippable_h_10_CALLBACK_WRAPPERS
+#define FID_MyBasic_Source_Basic_Action_BaseEquippable_h_10_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABaseEquippable(); \
 	friend struct Z_Construct_UClass_ABaseEquippable_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(ABaseEquippable)
 
 
-#define FID_My_UE5_Programming_MyBasic_Source_Basic_Action_BaseEquippable_h_10_ENHANCED_CONSTRUCTORS \
+#define FID_MyBasic_Source_Basic_Action_BaseEquippable_h_10_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ABaseEquippable(ABaseEquippable&&); \
@@ -45,14 +45,14 @@ public: \
 	NO_API virtual ~ABaseEquippable();
 
 
-#define FID_My_UE5_Programming_MyBasic_Source_Basic_Action_BaseEquippable_h_7_PROLOG
-#define FID_My_UE5_Programming_MyBasic_Source_Basic_Action_BaseEquippable_h_10_GENERATED_BODY \
+#define FID_MyBasic_Source_Basic_Action_BaseEquippable_h_7_PROLOG
+#define FID_MyBasic_Source_Basic_Action_BaseEquippable_h_10_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_My_UE5_Programming_MyBasic_Source_Basic_Action_BaseEquippable_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_My_UE5_Programming_MyBasic_Source_Basic_Action_BaseEquippable_h_10_CALLBACK_WRAPPERS \
-	FID_My_UE5_Programming_MyBasic_Source_Basic_Action_BaseEquippable_h_10_INCLASS_NO_PURE_DECLS \
-	FID_My_UE5_Programming_MyBasic_Source_Basic_Action_BaseEquippable_h_10_ENHANCED_CONSTRUCTORS \
+	FID_MyBasic_Source_Basic_Action_BaseEquippable_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_MyBasic_Source_Basic_Action_BaseEquippable_h_10_CALLBACK_WRAPPERS \
+	FID_MyBasic_Source_Basic_Action_BaseEquippable_h_10_INCLASS_NO_PURE_DECLS \
+	FID_MyBasic_Source_Basic_Action_BaseEquippable_h_10_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -60,7 +60,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BASIC_API UClass* StaticClass<class ABaseEquippable>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_My_UE5_Programming_MyBasic_Source_Basic_Action_BaseEquippable_h
+#define CURRENT_FILE_ID FID_MyBasic_Source_Basic_Action_BaseEquippable_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

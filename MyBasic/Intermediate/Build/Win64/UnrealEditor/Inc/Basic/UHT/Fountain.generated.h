@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BASIC_Fountain_generated_h
 
-#define FID_My_UE5_Programming_MyBasic_Source_Basic_Fountain_h_14_INCLASS_NO_PURE_DECLS \
+#define FID_MyBasic_Source_Basic_Fountain_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFountain(); \
 	friend struct Z_Construct_UClass_AFountain_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(AFountain)
 
 
-#define FID_My_UE5_Programming_MyBasic_Source_Basic_Fountain_h_14_ENHANCED_CONSTRUCTORS \
+#define FID_MyBasic_Source_Basic_Fountain_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	AFountain(AFountain&&); \
@@ -35,12 +35,12 @@ public: \
 	NO_API virtual ~AFountain();
 
 
-#define FID_My_UE5_Programming_MyBasic_Source_Basic_Fountain_h_11_PROLOG
-#define FID_My_UE5_Programming_MyBasic_Source_Basic_Fountain_h_14_GENERATED_BODY \
+#define FID_MyBasic_Source_Basic_Fountain_h_11_PROLOG
+#define FID_MyBasic_Source_Basic_Fountain_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_My_UE5_Programming_MyBasic_Source_Basic_Fountain_h_14_INCLASS_NO_PURE_DECLS \
-	FID_My_UE5_Programming_MyBasic_Source_Basic_Fountain_h_14_ENHANCED_CONSTRUCTORS \
+	FID_MyBasic_Source_Basic_Fountain_h_14_INCLASS_NO_PURE_DECLS \
+	FID_MyBasic_Source_Basic_Fountain_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -48,7 +48,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BASIC_API UClass* StaticClass<class AFountain>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_My_UE5_Programming_MyBasic_Source_Basic_Fountain_h
+#define CURRENT_FILE_ID FID_MyBasic_Source_Basic_Fountain_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

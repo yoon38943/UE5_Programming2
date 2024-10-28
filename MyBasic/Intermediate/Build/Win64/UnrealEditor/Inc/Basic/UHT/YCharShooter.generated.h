@@ -14,12 +14,12 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BASIC_YCharShooter_generated_h
 
-#define FID_My_UE5_Programming_MyBasic_Source_Basic_Character_YCharShooter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_MyBasic_Source_Basic_Character_YCharShooter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execGetHealthPercent); \
 	DECLARE_FUNCTION(execIsDead);
 
 
-#define FID_My_UE5_Programming_MyBasic_Source_Basic_Character_YCharShooter_h_12_INCLASS_NO_PURE_DECLS \
+#define FID_MyBasic_Source_Basic_Character_YCharShooter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAYCharShooter(); \
 	friend struct Z_Construct_UClass_AYCharShooter_Statics; \
@@ -28,7 +28,7 @@ public: \
 	DECLARE_SERIALIZER(AYCharShooter)
 
 
-#define FID_My_UE5_Programming_MyBasic_Source_Basic_Character_YCharShooter_h_12_ENHANCED_CONSTRUCTORS \
+#define FID_MyBasic_Source_Basic_Character_YCharShooter_h_12_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AYCharShooter(); \
 private: \
@@ -42,13 +42,13 @@ public: \
 	NO_API virtual ~AYCharShooter();
 
 
-#define FID_My_UE5_Programming_MyBasic_Source_Basic_Character_YCharShooter_h_9_PROLOG
-#define FID_My_UE5_Programming_MyBasic_Source_Basic_Character_YCharShooter_h_12_GENERATED_BODY \
+#define FID_MyBasic_Source_Basic_Character_YCharShooter_h_9_PROLOG
+#define FID_MyBasic_Source_Basic_Character_YCharShooter_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_My_UE5_Programming_MyBasic_Source_Basic_Character_YCharShooter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_My_UE5_Programming_MyBasic_Source_Basic_Character_YCharShooter_h_12_INCLASS_NO_PURE_DECLS \
-	FID_My_UE5_Programming_MyBasic_Source_Basic_Character_YCharShooter_h_12_ENHANCED_CONSTRUCTORS \
+	FID_MyBasic_Source_Basic_Character_YCharShooter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_MyBasic_Source_Basic_Character_YCharShooter_h_12_INCLASS_NO_PURE_DECLS \
+	FID_MyBasic_Source_Basic_Character_YCharShooter_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -56,7 +56,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BASIC_API UClass* StaticClass<class AYCharShooter>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_My_UE5_Programming_MyBasic_Source_Basic_Character_YCharShooter_h
+#define CURRENT_FILE_ID FID_MyBasic_Source_Basic_Character_YCharShooter_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

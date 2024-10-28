@@ -128,14 +128,14 @@ AYCharBasePlatform::~AYCharBasePlatform() {}
 // End Class AYCharBasePlatform
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_Character_YCharBasePlatform_h_Statics
+struct Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Character_YCharBasePlatform_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_AYCharBasePlatform, AYCharBasePlatform::StaticClass, TEXT("AYCharBasePlatform"), &Z_Registration_Info_UClass_AYCharBasePlatform, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AYCharBasePlatform), 1743299047U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_Character_YCharBasePlatform_h_642138173(TEXT("/Script/Basic"),
-	Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_Character_YCharBasePlatform_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_Character_YCharBasePlatform_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Character_YCharBasePlatform_h_642138173(TEXT("/Script/Basic"),
+	Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Character_YCharBasePlatform_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Character_YCharBasePlatform_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

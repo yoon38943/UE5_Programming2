@@ -76,14 +76,14 @@ UBTT_Shoot::~UBTT_Shoot() {}
 // End Class UBTT_Shoot
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_Shooting_BTT_Shoot_h_Statics
+struct Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Shooting_BTT_Shoot_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_UBTT_Shoot, UBTT_Shoot::StaticClass, TEXT("UBTT_Shoot"), &Z_Registration_Info_UClass_UBTT_Shoot, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UBTT_Shoot), 2543867500U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_Shooting_BTT_Shoot_h_3421016100(TEXT("/Script/Basic"),
-	Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_Shooting_BTT_Shoot_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_Shooting_BTT_Shoot_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Shooting_BTT_Shoot_h_3421016100(TEXT("/Script/Basic"),
+	Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Shooting_BTT_Shoot_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Shooting_BTT_Shoot_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

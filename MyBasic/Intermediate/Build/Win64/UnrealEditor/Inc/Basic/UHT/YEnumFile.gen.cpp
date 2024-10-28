@@ -273,7 +273,7 @@ UEnum* Z_Construct_UEnum_Basic_E_MovementSpeed()
 // End Enum E_MovementSpeed
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_Action_YEnumFile_h_Statics
+struct Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Action_YEnumFile_h_Statics
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
 		{ E_CharacterState_StaticEnum, TEXT("E_CharacterState"), &Z_Registration_Info_UEnum_E_CharacterState, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 4094651595U) },
@@ -282,9 +282,9 @@ struct Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_Action_
 		{ E_MovementSpeed_StaticEnum, TEXT("E_MovementSpeed"), &Z_Registration_Info_UEnum_E_MovementSpeed, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2012172245U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_Action_YEnumFile_h_123894596(TEXT("/Script/Basic"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Action_YEnumFile_h_123894596(TEXT("/Script/Basic"),
 	nullptr, 0,
 	nullptr, 0,
-	Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_Action_YEnumFile_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_My_UE5_Programming_MyBasic_Source_Basic_Action_YEnumFile_h_Statics::EnumInfo));
+	Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Action_YEnumFile_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MyBasic_Source_Basic_Action_YEnumFile_h_Statics::EnumInfo));
 // End Registration
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
