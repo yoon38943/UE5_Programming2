@@ -45,7 +45,6 @@
 			"YCharBasePlatform.cpp.obj",
 			"YCharBase_AnimInstance.cpp.obj",
 			"YCharShooter.cpp.obj",
-			"Gun.cpp.obj",
 			"DelegateListener.cpp.obj",
 			"DelegateParamListener.cpp.obj",
 			"DelegateParamTrigger.cpp.obj",
@@ -58,7 +57,6 @@
 			"MulticastDelegateTrigger.cpp.obj",
 			"Fountain.cpp.obj",
 			"DeadZone.cpp.obj",
-			"Trophy.cpp.obj",
 			"YMovingPlatform.cpp.obj",
 			"BTS_PlayerLocationIfSeen.cpp.obj",
 			"BTT_ClearBlackboard.cpp.obj",
@@ -68,7 +66,9 @@
 			"ShooterPlayerController.cpp.obj",
 			"YCharShooterAnimInstance.cpp.obj",
 			"Test.cpp.obj",
-			"YGameInstance.cpp.obj"
+			"YGameInstance.cpp.obj",
+			"Gun.cpp.obj",
+			"Trophy.cpp.obj"
 		]
 	}
 }

@@ -37,7 +37,7 @@ void AGun::PullTrigger()
 	// 총알을 날려야된다.( 벡터 연산 ) => 라인트레이스를 써야한다.
 	FHitResult Hit;
 	FVector ShotDirection;
-	bool bSuccess = GunTrace(Hit, ShotDirection);
+	bool bSuccess = GunTrace2(Hit, ShotDirection);
 	//bool bSuccess = GunTrace2(Hit, ShotDirection);
 	if (bSuccess)
 	{
@@ -115,8 +115,8 @@ bool AGun::GunTrace2(FHitResult& Hit, FVector& ShotDirection)
 	}
 
 
-	DrawDebugCamera(GetWorld(), Location, Rotation, 90, 2, FColor::Red, true);
-	HDRAW_VECTOR(Location, End);
+	//DrawDebugCamera(GetWorld(), Location, Rotation, 90, 2, FColor::Red, true);
+	//HDRAW_VECTOR(Location, End);
 
 	FCollisionQueryParams Params;
 	Params.AddIgnoredActor(this);

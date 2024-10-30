@@ -15,7 +15,7 @@ ATrophy::ATrophy()
 	StaticMesh->SetupAttachment(GetRootComponent());
 
 	RotatingMovement = CreateDefaultSubobject<URotatingMovementComponent>(TEXT("RotatingMovement"));
-	RotatingMovement->RotationRate = FRotator(0.0f, 30.f, 0.0f);
+	RotatingMovement->RotationRate = FRotator(0.0f, 90.f, 0.0f);
 }
 
 void ATrophy::BeginPlay()
@@ -45,13 +45,12 @@ void ATrophy::Tick(float DeltaTime)
 
 	RunningTime += DeltaTime;
 	float DeltaVal = Amplitude * FMath::Sin(RunningTime * TimeConstant);
-	AddActorWorldOffset(FVector(DeltaVal, 0.0f, 0.0f));
+	AddActorWorldOffset(FVector(0.0f, 0.0f, DeltaVal));
 }
 
 void ATrophy::OnOverlapTrophyMesh(UPrimitiveComponent* OverlappedCompt, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 	GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Blue, FString::Printf(TEXT("On Overlap Begin~~ Name : %s \nYou Win!!"), *OtherActor->GetName()));
-	/*Destroy();*/
 
 	UWorld* World = GetWorld();
 	if (World != nullptr)
@@ -60,6 +59,7 @@ void ATrophy::OnOverlapTrophyMesh(UPrimitiveComponent* OverlappedCompt, AActor* 
 		if (YGI != nullptr)
 		{
 			YGI->MD_GameEnd.Broadcast(1);
+			Destroy();
 		}
 	}
 }
